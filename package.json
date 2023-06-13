@@ -1,0 +1,28 @@
+{
+  "name": "@linhx-ec/shared-types",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "publ": "npm i && npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/linhx-ec/shared-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linhx-ec/shared-types/issues"
+  },
+  "homepage": "https://github.com/linhx-ec/shared-types#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.3"
+  },
+  "types": "./lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}
